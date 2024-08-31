@@ -31,7 +31,7 @@ while True:
         print(f'O valor correspondente a {numb2}% de {numb} é: {numb * numb2 / 100}')
     else:
         opcao > limite
-        print("Numero escolhido não equivale a nenhuma operação")
+        print(f"=======ERROR=======\n *Operação Invalida*")
         print(f'===================')
     
     print('Deseja realizar outro cálculo? Digite 1 para Sim e 2 para Não.')
