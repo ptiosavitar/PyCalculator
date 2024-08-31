@@ -4,7 +4,7 @@ while True:
 
     print('Escolha um número:')
     print(' 1) Soma \n 2) Subtração \n 3) Multiplicação \n 4) Divisão')
-    print(' 5) Potência \n 6) Divisão Inteira \n 7) Resto da Divisão')
+    print(' 5) Potência \n 6) Divisão Inteira \n 7) Porcentagem')
 
     print(f'===================')
 
@@ -25,7 +25,7 @@ while True:
     elif opcao == 6:
         print(f'O resultado deu: {numb // numb2}')
     elif opcao == 7:
-        print(f'O resultado deu: {numb % numb2}')
+        print(f'O valor correspondente a {numb2}% de {numb} é: {numb * numb2 / 100}')
     else:
         print('O número digitado está fora dos limites.')
         print(f'===================')
